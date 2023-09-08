@@ -1,0 +1,173 @@
+body
+{
+margin : 0;
+padding:0 ;
+font-family:sans-serif;
+}
+/*-----headercss----*/
+#header{
+height: 100vh;
+background : linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("background_1.jpg");
+background-position:center;
+background-size:cover;
+background-attachment:fixed;
+}
+.userbox img{
+border-radius: 50%;
+width:250px;
+border : 2px solid #6caed5;
+}
+.userbox h1{
+ color:#fff;
+font-weight:bold;
+margin:10px;
+}
+.userbox p{
+   color: #fff;
+}
+.scrollbtn{
+bottom: 30px;
+position: absolute;
+left:50%;
+transform: translateX(-50%);
+border: 1px solid #fff;
+padding:10px 10px 20px;
+border-radius: 30px;
+}
+.scrollbar span{
+border: 2px solid #fff;
+font-size:10px;
+border-radius:30px;
+}
+.scorllbar{
+animation : mover ls infinite alternative;
+}
+@keyframes mover{
+0%{transform : translateY(0);}
+0%{transform : transformX(10px);}
+}
+/*------about----*/
+.about{
+padding-top:100px;
+padding-bottom:50px;}
+.profileimg{
+height:400px;
+}
+.nav-bar
+{
+top :0;
+position: sticky;
+z-index: 2;
+}
+.navbar{
+background-color:#66CDAA;
+}
+.navbar-brand img{
+height: 50px;
+}
+.nav-bar .fa-bars{
+font-sixe: 35px;
+color:#fff;
+}
+.navbar-toggler{
+outline: none !important;
+}
+.navbar nav{
+float:right;
+text-align:right;
+}
+.nav-link{
+color: #ff !important;
+}
+.skillsbar p{
+margin-bottom: 6px;
+font-weight:600;
+}
+.progressbar
+{
+border-radius: 16px;
+background: #0000ff;
+}
+.resume{
+padding-top:50px;
+padding-bottom:30px;
+background:#f9f9f9;
+}
+.resume h3{
+margin-bottom: 50 px;
+}
+.timline{
+positio: relative;
+list-style-type:none;
+}
+.timeline:before{
+content:'';
+background:#555;
+display:inline-block;
+position:absolute;
+left: 29px;
+width:2px;
+height: 100%;
+z-index:1;
+}
+.timeline li{
+margin-top:20px;
+margin-left:20px;
+margin -bottom:20px; 
+background:#fff;
+}
+.timeline li:before{
+content:'';
+background:#fff;
+display:inline-block;
+position:absolute;
+border-radius:50%;
+border: 3px solid #000;
+left: 20px;
+width:20px;
+height:20px;
+z-index:1;
+}
+.timeline li h4{
+background-color:#000;
+padding:5px 0 5px;
+column-rule-color:#fff;
+}
+.timeline li h4 span{
+font-weight:bold;
+color:#ccc;
+}
+.centered {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+   }
+.contact{
+padding-top:50px;
+}
+
+.contact row{
+padding :30px 0;
+font-size:22px;
+}
+.contact .col-md-4.fa{
+padding:10px;
+font-size: 40px;
+}
+.contact .btn{
+padding:10px 25px 10px 25px;
+margin 5px;
+boredr-radius:30px;
+border:2px solid #fff;
+}
+.contact .btn:focus{
+box-shadow:none !important;
+}
+.contact .btn .fa{
+
+margin-right:10px;
+}
+
+
+
